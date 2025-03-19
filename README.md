@@ -14,7 +14,7 @@ A simple RESTful API for managing notes built with Node.js and Express.
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/notes-api.git
+git clone https://github.com/SaishMK/rest_api_notes.git
 cd notes-api
 ```
 
@@ -132,17 +132,7 @@ curl -X DELETE http://localhost:3000/notes/1615478523000
 
 Response: 204 No Content
 
-## Testing with Postman
-
-You can also test the API using Postman:
-
-1. Import the following Postman collection:
-
-```
-https://www.postman.com/collections/your-collection-id
-```
-
-Alternatively, you can manually create requests in Postman:
+You can also create requests in Postman:
 
 1. Create a new collection called "Notes API"
 2. Add requests for each endpoint:
